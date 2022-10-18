@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var authen = require('./models/authenricator');
+var authen = require('../models/authenticator');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
